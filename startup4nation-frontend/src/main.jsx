@@ -410,18 +410,16 @@ function Home({ onProfile }) {
             action.
           </p>
 
-          <button
-            className="primary-btn white-btn"
-              onClick={() =>
-    window.open(
-      "https://chat.whatsapp.com/E6JdSGTaYGL0I9zkAtI26A",
-      "_blank"
-    )
-  }
-          >
-            Join Startup4Nation Community
-            <ArrowRight size={18} />
-          </button>
+       <button
+  className="primary-btn white-btn"
+  onClick={() => {
+    window.location.href =
+      "https://chat.whatsapp.com/E6JdSGTaYGL0I9zkAtI26A";
+  }}
+>
+  Join Startup4Nation Community
+  <ArrowRight size={18} />
+</button>
         </div>
       </section>
 
